@@ -1,5 +1,5 @@
 import React from "react";
-import {ImAppleinc, ImAndroid, ImGithub} from "react-icons/im";
+import { ImAppleinc, ImAndroid, ImGithub } from "react-icons/im";
 import { FaLinkedin, FaGoogle, FaTwitter } from "react-icons/fa";
 import "./compo.css";
 
