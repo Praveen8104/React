@@ -4,9 +4,8 @@
 
 
 .text {
-    width: 15vw;
+    width: 20%;
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
