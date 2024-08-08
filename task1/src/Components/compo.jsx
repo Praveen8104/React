@@ -10,7 +10,8 @@ export default function Compo() {
                 <ImAppleinc fontSize="50px" style={{ margin: "10px" }} />
                 <ImAndroid fontSize="50px" style={{ margin: "10px" }} />
             </div>
-            <div className="text">Hai</div>
+            <div className="text">Hello</div>
+            <div className="text">Bye.. Bye...</div>
         </>
     );
 }
