@@ -10,10 +10,16 @@ function Parent() {
         wife: 'Lagertha'
     }
 
+    const arr = [4, 2, 0, 5]
+
+    function handleClick(name) {
+        console.log("Hai" + " " + name);
+    }
+
     return (
         <>
             <div className='cards'>
-                <Child name="Praveen" roll={20} college="VIT" studentDetails={studentDetails} image={image} />
+                <Child name="Praveen" roll={20} college="ACOE" studentDetails={studentDetails} image={image} arr={arr} handleClick={handleClick} />
             </div>
         </>
     )
