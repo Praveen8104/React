@@ -3,7 +3,6 @@ import './file1.css'
 
 function File1() {
 
-    var arr =[]
     const [userData, setUserData] = useState({
         name: '',
         age: '',
@@ -19,8 +18,6 @@ function File1() {
         }));
     };
 
-    
-    
     if(!localStorage.getItem("userdata")){
         localStorage.setItem("userdata",JSON.stringify([]));
     }
