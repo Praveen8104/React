@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link, Outlet, useParams } from 'react-router-dom'
 
 function Contact() {
+  const {id} = useParams;
+  console.log(id);
   return (
     <div>
       Contact
@@ -10,7 +13,13 @@ function Contact() {
 function Home() {
   return (
     <div>
-      Home
+      <h2>Home</h2>
+      <div>
+        <Link to='/contact'>Contact</Link>
+        <Link to='/about'>About</Link>
+      </div>
+      <Outlet />
+      <h2>Footer</h2>
     </div>
   )
 }
@@ -22,4 +31,4 @@ function About() {
   )
 }
 
-export {Home, Contact, About}
+export { Home, Contact, About }
