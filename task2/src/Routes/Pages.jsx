@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link, Outlet, useParams } from 'react-router-dom'
 
+
 function Contact() {
-  const {id} = useParams;
-  console.log(id);
   return (
     <div>
-      Contact
+      <h1>Contact Page</h1>
     </div>
-  )
+  );
 }
 function Home() {
   return (
